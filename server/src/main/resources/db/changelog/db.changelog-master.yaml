@@ -1,3 +1,7 @@
 databaseChangeLog:
- - sqlFile:
-    path: db/changelog/changeset-001-create-users.sql
+ - changeSet:
+      id: 1
+      author: Aniket
+      sqlFile:
+         path: changeset-001-create-data.sql
+         relativeToChangelogFile: true
